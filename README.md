@@ -7,4 +7,4 @@ Have all your social profiles in one personal hub.
 
 Just modifing the HTML file with your info, you will have a hub where collect all your social profiles.
 
-You can test my site at hub.davidmartos.dev
+You can test my site at <a href="https://davidmartos.dev"></a>
