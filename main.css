@@ -1,0 +1,127 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+* {margin: 0 auto;}
+
+#container {font-family: Montserrat;
+    max-width: 90%;
+    margin: 0px auto;
+}
+
+#cards {
+    max-width: 42%;
+    height: 100%;
+    width: 100%;
+}
+
+#photo {border-radius: 50%;
+        width: 25%;
+        height: 25%;
+        object-fit: contain;
+        object-position: initial;
+        filter: none;
+        display: flex;
+        -moz-box-align: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 30px auto 20px auto;
+}
+
+#name {text-align: center;
+        margin: 0px auto 30px auto;}
+
+.button {background-color: black;
+        min-height: 56px;
+        margin: 0px;
+        border: medium none;
+        font-family: inherit;
+        font-weight: inherit;
+        font-size: inherit;
+        text-align: center;
+        cursor: pointer;
+        text-decoration: none;
+        display: flex;
+        -moz-box-align: center;
+        align-items: center;
+        -moz-box-pack: center;
+        justify-content: center;
+        height: auto;
+        position: relative;
+        padding: 16px 20px 20px 20px;
+        width: 100%;
+        appearance: none;
+        box-sizing: border-box;
+        vertical-align: middle;
+
+        overflow-wrap: break-word;
+        word-break: break-word;
+        hyphens: auto;
+        white-space: normal;
+        color: inherit;
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        }
+
+
+.icon {position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    overflow: hidden;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: center;
+    align-items: center;
+    mask-size: 100%;
+    left: 8px;
+    border-radius: 12px;
+    width: 48px;
+    height: 48px;
+    font-size: 40px;
+}
+
+
+.text {padding: 0px;
+    margin: 0px;
+    line-height: 1.5;
+    width: 100%;
+    font-weight: 500;
+    font-size: 15px;}
+
+
+footer {text-align: center;
+        padding-top: 35px;
+        padding-bottom: 20px;}
+
+
+
+
+@media (max-width:1100px) {
+    #container {
+        max-width: 80%;
+    }
+
+    #cards {max-width: 80%;}
+
+
+    .text {
+        font-size: 17px;}
+}
+
+
+@media (max-width:600px) {
+    #container {
+        max-width: 95%;
+    }
+
+
+    #photo {
+        width: 35%;
+        height: 35%;
+    }
+
+    #cards {max-width: 100%;}
+}
